@@ -1,6 +1,6 @@
 {
   "name": "statyck-theme-default",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Default theme for Statyck (https://github.com/neilstuartcraig/statyck)",
   "scripts": {
     "postinstall": "scripts/post-install.js"
