@@ -1,0 +1,25 @@
+{
+  "name": "statyck-theme-default",
+  "version": "1.0.0",
+  "description": "Default theme for Statyck (https://github.com/neilstuartcraig/statyck)",
+  "scripts": {
+    "post-install": "./scripts/post-install.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neilstuartcraig/statyck-theme-default.git"
+  },
+  "keywords": [
+    "statyck",
+    "theme"
+  ],
+  "author": "Neil Craig <neil.craig@thedotproduct.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neilstuartcraig/statyck-theme-default/issues"
+  },
+  "homepage": "https://github.com/neilstuartcraig/statyck-theme-default#readme",
+  "dependencies": {
+    "fs-extra": "^2.1.2"
+  }
+}
