@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Default theme for Statyck (https://github.com/neilstuartcraig/statyck)",
   "scripts": {
-    "post-install": "./scripts/post-install.js"
+    "postinstall": "scripts/post-install.js"
   },
   "repository": {
     "type": "git",

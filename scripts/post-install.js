@@ -1,4 +1,4 @@
-#!/usr/local/bin/node
+#! /usr/local/bin/node
 
 /* 
 Post-install script for statyck-theme-default
@@ -10,22 +10,30 @@ This script is run after npm install statyck-theme-default or yarn add statyck-t
 */
 
 // Core deps
-import path from "path";
+// import path from "path";
+const path = require("path");
 
 // 3rd party deps
-import fse from "fs-extra";
+// import fse from "fs-extra";
+const fse = require("fs-extra");
 
 // Config
-const blogDir = process.cwd();
-const configDirName = "config";
+const blogDir = path.join(process.cwd(), "..", ".."); // Down 2 dirs from install location
+const configDirName = "statyck-config";
 const configFilename = "theme-config.json";
 
-const configSrcFilename = path.join(__dirname, configDirName, configFilename);
+const configSrcFilename = path.join(__dirname, "..", configDirName, configFilename);
+
+console.log(`configSrcFilename: ${configSrcFilename}`);
 
 const configDestDirName = path.join(blogDir, configDirName);
 const configDestFilename = path.join(configDestDirName, configFilename);
 
-fse.ensureDir(configDestDir, (EDErr) => 
+console.log(`blogDir: ${blogDir}`);
+console.log(`configDestDirName: ${configDestDirName}`);
+console.log(`configDestFilename: ${configDestFilename}`);
+
+fse.ensureDir(configDestDirName, (EDErr) => 
 {
     if(EDErr)
     {
