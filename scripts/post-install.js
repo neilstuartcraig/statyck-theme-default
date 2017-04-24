@@ -24,14 +24,8 @@ const configFilename = "theme-config.json";
 
 const configSrcFilename = path.join(__dirname, "..", configDirName, configFilename);
 
-console.log(`configSrcFilename: ${configSrcFilename}`);
-
 const configDestDirName = path.join(blogDir, configDirName);
 const configDestFilename = path.join(configDestDirName, configFilename);
-
-console.log(`blogDir: ${blogDir}`);
-console.log(`configDestDirName: ${configDestDirName}`);
-console.log(`configDestFilename: ${configDestFilename}`);
 
 fse.ensureDir(configDestDirName, (EDErr) => 
 {
