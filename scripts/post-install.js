@@ -1,4 +1,4 @@
-#!//usr/local/bin/node
+#!/usr/local/bin/node
 
 /* 
 Post-install script for statyck-theme-default
