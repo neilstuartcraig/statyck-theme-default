@@ -1,5 +1,8 @@
 # Changelog for statyck-theme-default
 
+## v1.1.3
+* Fix: Margin on footer link
+
 ## v1.1.2
 * Fix: Missing stylesheet include in HTML files
 
