@@ -1,5 +1,8 @@
 # Changelog for statyck-theme-default
 
+## v1.1.2
+* Fix: Missing stylesheet include in HTML files
+
 ## v1.1.1
 * Fix: Styling and content of footer;
 
