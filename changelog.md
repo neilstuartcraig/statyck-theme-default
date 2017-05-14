@@ -1,5 +1,8 @@
 # Changelog for statyck-theme-default
 
+## v1.1.1
+* Fix: Styling and content of footer;
+
 ## v1.1.0
 * Add: Footer/shameless plug for Statyck
 
