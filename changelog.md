@@ -1,5 +1,8 @@
 # Changelog for statyck-theme-default
 
+## v1.1.4
+* Fix: Incorrect HTML elements in templates
+
 ## v1.1.3
 * Fix: Margin on footer link
 

@@ -16,7 +16,7 @@
     <body>
 
         <header class="main_header">
-            <section class="main_header_titles">
+            <div class="main_header_titles">
                 <h1 class="main_header_titles_name">
                     <a href="/">
                         {{theme.title}}
@@ -25,12 +25,12 @@
                 <span class="main_header_titles_strapline">
                     {{theme.strapline}}
                 </span>
-            </section>
-            <section class="main_header_nav">
-                <section class="main_header_nav_pages">
+            </div>
+            <div class="main_header_nav">
+                <nav class="main_header_nav_pages">
                     {{{pagesIndexHTML}}}
-                </section>
-                <section class="main_header_nav_social">
+                </nav>
+                <nav class="main_header_nav_social">
                     <ul>
                         <li>
                             <a href="{{theme.social.twitterURL}}">
@@ -47,8 +47,8 @@
                             </a>
                         </li>
                     </ul>
-                </section>
-            </section>
+                </nav>
+            </div>
         </header>
 
         <main>
@@ -57,7 +57,7 @@
                     {{#each items.items ~}}
                     <li>
                         <a href="{{absoluteURI}}">
-                        {{title}}
+                            {{title}}
                         </a>
                         <span class="index_date">
                             Last updated: {{metadata.dateModified.string}}
