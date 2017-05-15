@@ -1,5 +1,8 @@
 # Changelog for statyck-theme-default
 
+## v1.3.4
+* Fix: Missing padding on footer-bottom
+
 ## v1.3.3
 * Fix: Illegal chars in example Github and Twitter links
 
