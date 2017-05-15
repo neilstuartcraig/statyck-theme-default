@@ -1,5 +1,8 @@
 # Changelog for statyck-theme-default
 
+## v1.3.0
+* Change: Re-jig header layout to allow title to go full width
+
 ## v1.2.0
 * Add: viewport metadata for mobile UA's
 
