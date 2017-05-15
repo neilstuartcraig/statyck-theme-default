@@ -1,5 +1,8 @@
 # Changelog for statyck-theme-default
 
+## v1.2.0
+* Add: viewport metadata for mobile UA's
+
 ## v1.1.5
 * Fix: content.HTML braces
 
