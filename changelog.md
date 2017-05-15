@@ -1,5 +1,8 @@
 # Changelog for statyck-theme-default
 
+## v1.3.2
+* Fix: Bugs in 1.3.1
+
 ## v1.3.1
 * Fix: Bugs in 1.3.0
 
