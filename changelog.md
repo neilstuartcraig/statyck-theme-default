@@ -1,5 +1,11 @@
 # Changelog for statyck-theme-default
 
+## v1.3.6
+* Fix: Images being way too wide and ruining page/post layouts & fix wrong CSS file dest for rule
+
+## v1.3.5
+* Fix: Images being way too wide and ruining page layouts
+
 ## v1.3.4
 * Fix: Missing padding on footer-bottom
 

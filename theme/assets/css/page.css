@@ -29,3 +29,7 @@
     font-size: 0.8em;
     color: #777;
 }
+.page_content img
+{
+    max-width: 100%;
+}
