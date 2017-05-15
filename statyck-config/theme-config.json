@@ -10,8 +10,8 @@
         "createAbsoluteHRefs": false,
         "social":
         {
-            "twitterURL": "https://www.twitter.com/<your-twitter-handle>",
-            "githubURL": "https://www.github.com/<your-github-handle>"
+            "twitterURL": "https://www.twitter.com/---YOUR-TWITTER-HANDLE---",
+            "githubURL": "https://www.github.com/---YOUR-GITHUB-HANDLE----"
         }
     }
 }
