@@ -1,5 +1,8 @@
 # Changelog for statyck-theme-default
 
+## v1.1.5
+* Fix: content.HTML braces
+
 ## v1.1.4
 * Fix: Incorrect HTML elements in templates
 
