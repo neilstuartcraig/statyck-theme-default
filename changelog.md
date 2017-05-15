@@ -1,5 +1,8 @@
 # Changelog for statyck-theme-default
 
+## v1.3.1
+* Fix: Bugs in 1.3.0
+
 ## v1.3.0
 * Change: Re-jig header layout to allow title to go full width
 
