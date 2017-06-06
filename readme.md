@@ -38,3 +38,5 @@ Themes _must_ include the following files in the root (the path specified by `so
 #### Assets
 The default theme contains a directory called `assets` which has sub-directories containing asset files (css, js, images, media etc.). This is not mandatory but is generally recommended as a way to contain your page assets. Assets are referenced (in Markdown) relative to their host page e.g. `./assets/images/some-image.jpg`.
 
+## License
+[MIT license](./license.md)

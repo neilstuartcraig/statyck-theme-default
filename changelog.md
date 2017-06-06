@@ -1,5 +1,8 @@
 # Changelog for statyck-theme-default
 
+## v1.3.8
+* Fix: Missing license file and info
+
 ## v1.3.7
 * Fix: Awful SVG usage
 
