@@ -43,6 +43,14 @@
 {
     color: #fff;
 }
+
+/* Social icons */
+.main_header_social_icon
+{
+    display: block;
+    width: 1.5em;
+    height: 1.5em;
+}
 .main_header_etc_nav_pages
 {
     display: flex;

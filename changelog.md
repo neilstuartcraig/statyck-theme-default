@@ -1,5 +1,8 @@
 # Changelog for statyck-theme-default
 
+## v1.3.7
+* Fix: Awful SVG usage
+
 ## v1.3.6
 * Fix: Images being way too wide and ruining page/post layouts & fix wrong CSS file dest for rule
 
